@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        var A_mid = 10;
+        var A_end = 8;
+        var B_mid = 1;
+        var B_end = 2;
+        var C_mid = 9;
+        var C_end = 5;
+
+        // A 학생 출력
+        var result = "";
+        for (var i = 0; i < A_mid; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 - A_mid; ++i) {
+            result += "_";
+        }
+
+        result += " + ";
+
+        for (var i = 0; i < A_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 - A_end; ++i) {
+            result += "_";
+        }
+
+        result += " = ";
+
+        for (var i = 0; i < A_mid + A_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 20 - (A_mid + A_end); ++i) {
+            result += "_";
+        }
+
+        console.log("A : " + result);
+
+        // B  학생 출력
+        result = "";
+        for (var i = 0; i < B_mid; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 - B_mid; ++i) {
+            result += "_";
+        }
+
+        result += " + ";
+
+        for (var i = 0; i < B_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 - B_end; ++i) {
+            result += "_";
+        }
+
+        result += " = ";
+
+        for (var i = 0; i < B_mid + B_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 20 - (B_mid + B_end); ++i) {
+            result += "_";
+        }
+
+        console.log("B : " + result);
+
+        // C 학생 출력
+        result = "";
+        for (var i = 0; i < C_mid; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 -C_mid; ++i) {
+            result += "_";
+        }
+
+        result += " + ";
+
+        for (var i = 0; i < C_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 10 - C_end; ++i) {
+            result += "_";
+        }
+
+        result += " = ";
+
+        for (var i = 0; i < C_mid + C_end; ++i) {
+            result += "*";
+        }
+
+        for (var i = 0; i < 20 - (C_mid + C_end); ++i) {
+            result += "_";
+        }
+
+        console.log("C : " + result);
+    </script>
+</head>
+<body>
+</body>
+</html>
